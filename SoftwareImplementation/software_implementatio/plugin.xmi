@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ec4vcNGYEeiwV61DhbFIaQ" guid="_ec4vcNGYEeiwV61DhbFIaQ">
+    <resourceDescriptors xmi:id="__13eoNGeEeiwV61DhbFIaQ" id="-f5IizWDVJH_fBhSDKkzNJA" uri="tasks/revisar_plano_de_projeto.xmi"/>
+    <resourceDescriptors xmi:id="_5KhEINGiEeiwV61DhbFIaQ" id="-8uqOyN0MDlXfSVTlkhHHEg" uri="tasks/definir_ambiente.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_ecdRoNGYEeiwV61DhbFIaQ" name="software_implementatio" guid="_ecdRoNGYEeiwV61DhbFIaQ" presentationName="Software Implementatio" changeDate="2018-10-16T20:10:53.028-0300">
+    <methodElementProperty xmi:id="_ec7LsNGYEeiwV61DhbFIaQ" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_u1RTINGYEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRodGYEeiwV61DhbFIaQ" name="Content" guid="_ecdRodGYEeiwV61DhbFIaQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRotGYEeiwV61DhbFIaQ" name="Categories" guid="_ecdRotGYEeiwV61DhbFIaQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRo9GYEeiwV61DhbFIaQ" name="Domains" guid="_ecdRo9GYEeiwV61DhbFIaQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRpNGYEeiwV61DhbFIaQ" name="Disciplines" guid="_ecdRpNGYEeiwV61DhbFIaQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRpdGYEeiwV61DhbFIaQ" name="RoleSets" guid="_ecdRpdGYEeiwV61DhbFIaQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRptGYEeiwV61DhbFIaQ" name="WP Types" guid="_ecdRptGYEeiwV61DhbFIaQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRp9GYEeiwV61DhbFIaQ" name="Tools" guid="_ecdRp9GYEeiwV61DhbFIaQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRqNGYEeiwV61DhbFIaQ" name="StandardCategories" guid="_ecdRqNGYEeiwV61DhbFIaQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRqdGYEeiwV61DhbFIaQ" name="CustomCategories" guid="_ecdRqdGYEeiwV61DhbFIaQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRqtGYEeiwV61DhbFIaQ" name="Hidden" guid="_ecdRqtGYEeiwV61DhbFIaQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ecdRq9GYEeiwV61DhbFIaQ" name="Custom Categories" guid="_ecdRq9GYEeiwV61DhbFIaQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ecdRrNGYEeiwV61DhbFIaQ" name="CoreContent" guid="_ecdRrNGYEeiwV61DhbFIaQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rERb0NGaEeiwV61DhbFIaQ" name="iniciacao_da_imprementacao_de_software" guid="_rERb0NGaEeiwV61DhbFIaQ" presentationName="Iniciação da Imprementação de Software" briefDescription="A atividade de Iniciação da Implementação de Software garante que o Plano de Projeto estabelecido na atividade 'Planejamento de Projeto' seja adotado por toda equipe de trabalho. A atividade fornece:&#xD;&#xA;- Revisão do Plano de Projeto pela equipe a fim de determinar a atribuição das tarefas.&#xD;&#xA;- Um ambiente de implementação estável.">
+          <methodElementProperty xmi:id="_rET4ENGaEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_sdifYNGbEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bhwo0NGdEeiwV61DhbFIaQ" name="revisar_plano_de_projeto" guid="_bhwo0NGdEeiwV61DhbFIaQ" presentationName="Revisar Plano de Projeto" briefDescription="Analisar o Plano de Projeto atual com os membros da Equipe, a fim de alcançar um entendimento comum e obter o envolvimento deles com o projeto." performedBy="_KSXAwNGhEeiwV61DhbFIaQ _AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_nQoG4NGhEeiwV61DhbFIaQ" output="_nQoG4NGhEeiwV61DhbFIaQ">
+            <methodElementProperty xmi:id="__1ttoNGeEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-f5IizWDVJH_fBhSDKkzNJA" href="uma://-f5IizWDVJH_fBhSDKkzNJA#-f5IizWDVJH_fBhSDKkzNJA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_keUpQNGfEeiwV61DhbFIaQ" name="definir_ambiente" guid="_keUpQNGfEeiwV61DhbFIaQ" presentationName="Definir ambiente" briefDescription="Durante essa tarefa, o ambiente no qual a implementação será executado e preparado. O objetivo é definir um ambiente controlado e independente para a implementação." performedBy="_AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_nQoG4NGhEeiwV61DhbFIaQ">
+            <methodElementProperty xmi:id="_r7FVwNGfEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-8uqOyN0MDlXfSVTlkhHHEg" href="uma://-8uqOyN0MDlXfSVTlkhHHEg#-8uqOyN0MDlXfSVTlkhHHEg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_AZp2QNGhEeiwV61DhbFIaQ" name="work_team" guid="_AZp2QNGhEeiwV61DhbFIaQ" presentationName="Work Team" briefDescription="Possui conhecimento e experiência de acordo com seus papéis específicos no projeto.">
+            <methodElementProperty xmi:id="_FUVnkNGhEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_KSXAwNGhEeiwV61DhbFIaQ" name="project_manager" guid="_KSXAwNGhEeiwV61DhbFIaQ" presentationName="Project Manager" briefDescription="Possui capacidade de liderança com experiência na tomada de decisões, planejamento, gerenciamento de pessoal, delegação e supervisão, finanças e desenvolvimento de software.">
+            <methodElementProperty xmi:id="_OJylUNGhEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_PnvKANGhEeiwV61DhbFIaQ" name="customer" guid="_PnvKANGhEeiwV61DhbFIaQ" presentationName="Customer" briefDescription="Possui conhecimento dos processos do Cliente e capacidade de explicar os requisitos do Cliente. O Cliente detém autoridade para aprovar os requisitos e suas alterações. O Cliente inclui representantes dos usuários para garantir que o ambiente operacional seja abordado corretamente. Possui conhecimento e experiência no domínio da aplicação.">
+            <methodElementProperty xmi:id="_Ultf4NGhEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_nQoG4NGhEeiwV61DhbFIaQ" name="plano_de_projeto" guid="_nQoG4NGhEeiwV61DhbFIaQ" presentationName="Plano de Projeto" briefDescription="Uma declaração de como e quando os objetivos de um determinado projeto devem ser alcançados, mostrando os principais produtos, marcos, atividades e recursos necessários ao projeto.">
+            <methodElementProperty xmi:id="_1OxcwNGhEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5ToBANGbEeiwV61DhbFIaQ" name="analise_de_requisitos_de_software" guid="_5ToBANGbEeiwV61DhbFIaQ" presentationName="Análise de Requisitos de Software">
+          <methodElementProperty xmi:id="_5ToBAdGbEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_PKrz4NGcEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Rd_TQNGcEeiwV61DhbFIaQ" name="identificacao_dos_componentes_de_software" guid="_Rd_TQNGcEeiwV61DhbFIaQ" presentationName="Identificação dos Componentes de Software">
+          <methodElementProperty xmi:id="_Rd_TQdGcEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_V9EtsNGcEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_WzXcgNGcEeiwV61DhbFIaQ" name="construcao_do_software" guid="_WzXcgNGcEeiwV61DhbFIaQ" presentationName="Construção do Software">
+          <methodElementProperty xmi:id="_WzXcgdGcEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_aUXeENGcEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bQlOsNGcEeiwV61DhbFIaQ" name="integracao_de_software_e_testes" guid="_bQlOsNGcEeiwV61DhbFIaQ" presentationName="Integração de Software e Testes">
+          <methodElementProperty xmi:id="_bQlOsdGcEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_fW15cNGcEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_g0-EUNGcEeiwV61DhbFIaQ" name="entrega_do_produto" guid="_g0-EUNGcEeiwV61DhbFIaQ" presentationName="Entrega do Produto">
+          <methodElementProperty xmi:id="_g0-EUdGcEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_jfMO4NGcEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ecdRrdGYEeiwV61DhbFIaQ" name="CapabilityPatterns" guid="_ecdRrdGYEeiwV61DhbFIaQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ecdRrtGYEeiwV61DhbFIaQ" name="DeliveryProcesses" guid="_ecdRrtGYEeiwV61DhbFIaQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ecdRr9GYEeiwV61DhbFIaQ" name="ProcessContributions" guid="_ecdRr9GYEeiwV61DhbFIaQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
