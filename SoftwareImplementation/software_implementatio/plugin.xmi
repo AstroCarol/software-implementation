@@ -3,6 +3,7 @@
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ec4vcNGYEeiwV61DhbFIaQ" guid="_ec4vcNGYEeiwV61DhbFIaQ">
     <resourceDescriptors xmi:id="__13eoNGeEeiwV61DhbFIaQ" id="-f5IizWDVJH_fBhSDKkzNJA" uri="tasks/revisar_plano_de_projeto.xmi"/>
     <resourceDescriptors xmi:id="_5KhEINGiEeiwV61DhbFIaQ" id="-8uqOyN0MDlXfSVTlkhHHEg" uri="tasks/definir_ambiente.xmi"/>
+    <resourceDescriptors xmi:id="_EXXrsNLjEeiw1JVvylulHw" id="-yLUk5K719jXTnOVnt7RJiA" uri="tasks/documentar_requisitos.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_ecdRoNGYEeiwV61DhbFIaQ" name="software_implementatio" guid="_ecdRoNGYEeiwV61DhbFIaQ" presentationName="Software Implementatio" changeDate="2018-10-16T20:10:53.028-0300">
     <methodElementProperty xmi:id="_ec7LsNGYEeiwV61DhbFIaQ" name="plugin_synFree" value="true"/>
@@ -33,26 +34,48 @@
             <methodElementProperty xmi:id="_r7FVwNGfEeiwV61DhbFIaQ" name="me_edited" value="true"/>
             <presentation xmi:id="-8uqOyN0MDlXfSVTlkhHHEg" href="uma://-8uqOyN0MDlXfSVTlkhHHEg#-8uqOyN0MDlXfSVTlkhHHEg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_AZp2QNGhEeiwV61DhbFIaQ" name="work_team" guid="_AZp2QNGhEeiwV61DhbFIaQ" presentationName="Work Team" briefDescription="Possui conhecimento e experiência de acordo com seus papéis específicos no projeto.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_AZp2QNGhEeiwV61DhbFIaQ" name="equipe" guid="_AZp2QNGhEeiwV61DhbFIaQ" presentationName="Equipe" briefDescription="Possui conhecimento e experiência de acordo com seus papéis específicos no projeto.">
             <methodElementProperty xmi:id="_FUVnkNGhEeiwV61DhbFIaQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_KSXAwNGhEeiwV61DhbFIaQ" name="project_manager" guid="_KSXAwNGhEeiwV61DhbFIaQ" presentationName="Project Manager" briefDescription="Possui capacidade de liderança com experiência na tomada de decisões, planejamento, gerenciamento de pessoal, delegação e supervisão, finanças e desenvolvimento de software.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_KSXAwNGhEeiwV61DhbFIaQ" name="gerente" guid="_KSXAwNGhEeiwV61DhbFIaQ" presentationName="Gerente" briefDescription="Possui capacidade de liderança com experiência na tomada de decisões, planejamento, gerenciamento de pessoal, delegação e supervisão, finanças e desenvolvimento de software.">
             <methodElementProperty xmi:id="_OJylUNGhEeiwV61DhbFIaQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_PnvKANGhEeiwV61DhbFIaQ" name="customer" guid="_PnvKANGhEeiwV61DhbFIaQ" presentationName="Customer" briefDescription="Possui conhecimento dos processos do Cliente e capacidade de explicar os requisitos do Cliente. O Cliente detém autoridade para aprovar os requisitos e suas alterações. O Cliente inclui representantes dos usuários para garantir que o ambiente operacional seja abordado corretamente. Possui conhecimento e experiência no domínio da aplicação.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_PnvKANGhEeiwV61DhbFIaQ" name="cliente" guid="_PnvKANGhEeiwV61DhbFIaQ" presentationName="Cliente" briefDescription="Possui conhecimento dos processos do Cliente e capacidade de explicar os requisitos do Cliente. O Cliente detém autoridade para aprovar os requisitos e suas alterações. O Cliente inclui representantes dos usuários para garantir que o ambiente operacional seja abordado corretamente. Possui conhecimento e experiência no domínio da aplicação.">
             <methodElementProperty xmi:id="_Ultf4NGhEeiwV61DhbFIaQ" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_nQoG4NGhEeiwV61DhbFIaQ" name="plano_de_projeto" guid="_nQoG4NGhEeiwV61DhbFIaQ" presentationName="Plano de Projeto" briefDescription="Uma declaração de como e quando os objetivos de um determinado projeto devem ser alcançados, mostrando os principais produtos, marcos, atividades e recursos necessários ao projeto.">
             <methodElementProperty xmi:id="_1OxcwNGhEeiwV61DhbFIaQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5ToBANGbEeiwV61DhbFIaQ" name="analise_de_requisitos_de_software" guid="_5ToBANGbEeiwV61DhbFIaQ" presentationName="Análise de Requisitos de Software">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5ToBANGbEeiwV61DhbFIaQ" name="analise_de_requisitos_de_software" guid="_5ToBANGbEeiwV61DhbFIaQ" presentationName="Análise de Requisitos de Software" briefDescription="A ativida de Análise de Requisitos de Software é responsável por analisar os requisitos acordados com o cliente e validar os requisitos de software para o projeto. A atividade fornece:&#xD;&#xA;- Revisão do Plano de Projeto para atribuição de tarefas para equipe;&#xD;&#xA;- Escolha, análise e especificação dos Requisitos do cliente;&#xD;&#xA;- Acordo a cerca dos Requistos;&#xD;&#xA;- Verificação e Validação dos Requisitos">
           <methodElementProperty xmi:id="_5ToBAdGbEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_PKrz4NGcEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qldCQNLhEeiw1JVvylulHw" name="definir_tarefas" guid="_qldCQNLhEeiw1JVvylulHw" presentationName="Definir tarefas" briefDescription="Definir tarefas para os membros da equipe, de acordo com sua função, tomando como base o Plano de Projeto atual." performedBy="_AZp2QNGhEeiwV61DhbFIaQ _KSXAwNGhEeiwV61DhbFIaQ" mandatoryInput="_nQoG4NGhEeiwV61DhbFIaQ">
+            <methodElementProperty xmi:id="_u6z48NLhEeiw1JVvylulHw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-FLKUNLhEeiw1JVvylulHw" name="documentar_requisitos" guid="_-FLKUNLhEeiw1JVvylulHw" presentationName="Documentar Requisitos" briefDescription="Documentar ou Atualizar a Especificação de Requisitos do sistema. " performedBy="_PnvKANGhEeiwV61DhbFIaQ _AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_nQoG4NGhEeiwV61DhbFIaQ _BxhDwNLjEeiw1JVvylulHw" output="_FkEvYNLjEeiw1JVvylulHw">
+            <methodElementProperty xmi:id="_UA_E4NLjEeiw1JVvylulHw" name="me_edited" value="true"/>
+            <presentation xmi:id="-yLUk5K719jXTnOVnt7RJiA" href="uma://-yLUk5K719jXTnOVnt7RJiA#-yLUk5K719jXTnOVnt7RJiA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BxhDwNLjEeiw1JVvylulHw" name="descricao_do_produto" guid="_BxhDwNLjEeiw1JVvylulHw" presentationName="Descrição do Produto">
+            <methodElementProperty xmi:id="_EXSzMNLjEeiw1JVvylulHw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_FkEvYNLjEeiw1JVvylulHw" name="especificacao_de_requisitos" guid="_FkEvYNLjEeiw1JVvylulHw" presentationName="Especificação de Requisitos">
+            <methodElementProperty xmi:id="_H4dM0NLjEeiw1JVvylulHw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oiXtMNMCEeiP16AWhs48wQ" name="verificacao_e_validacao_de_requisitos" guid="_oiXtMNMCEeiP16AWhs48wQ" presentationName="Verificação e Validação de Requisitos" briefDescription="Validar e obter a aprovação da Especificação de Requisitos. Validar se a Especificação de Requisitos satisfazem as necessidades e as expectativas acordadas, incluindo a usabilidade da interface do usuário." performedBy="_PnvKANGhEeiwV61DhbFIaQ" mandatoryInput="_FkEvYNLjEeiw1JVvylulHw" output="_FkEvYNLjEeiw1JVvylulHw">
+            <methodElementProperty xmi:id="_w67TkNMCEeiP16AWhs48wQ" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Rd_TQNGcEeiwV61DhbFIaQ" name="identificacao_dos_componentes_de_software" guid="_Rd_TQNGcEeiwV61DhbFIaQ" presentationName="Identificação dos Componentes de Software">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Rd_TQNGcEeiwV61DhbFIaQ" name="identificacao_dos_componentes_de_software" guid="_Rd_TQNGcEeiwV61DhbFIaQ" presentationName="Identificação dos Componentes de Software" briefDescription="A atividade Identificação dos Componentes de Software tranforma os requisitos de software do sistemas. A atividade fornece:&#xD;&#xA;- Revisão de Plano de Projeto;&#xD;&#xA;- Identificação dos compenentes de software e interfaces associadas.">
           <methodElementProperty xmi:id="_Rd_TQdGcEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_V9EtsNGcEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pZ6uUNMEEeiP16AWhs48wQ" name="definir_tarefas" guid="_pZ6uUNMEEeiP16AWhs48wQ" presentationName="definir tarefas" briefDescription="Definir tarefas para os membros da equipe, de acordo com sua função, tomando como base o Plano de Projeto atual." performedBy="_AZp2QNGhEeiwV61DhbFIaQ _KSXAwNGhEeiwV61DhbFIaQ" mandatoryInput="_nQoG4NGhEeiwV61DhbFIaQ">
+            <methodElementProperty xmi:id="_AvpCINMGEeiP16AWhs48wQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_v0fIkNMFEeiP16AWhs48wQ" name="compreender_as_especificacoes_de_requisitos" guid="_v0fIkNMFEeiP16AWhs48wQ" presentationName="Compreender as Especificações de Requisitos" briefDescription="Examinar cada requisito e certificar-se de que eles sejam compreendidos e agrupados:" performedBy="_AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_FkEvYNLjEeiw1JVvylulHw">
+            <methodElementProperty xmi:id="_TX6A8NMKEeiP16AWhs48wQ" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_WzXcgNGcEeiwV61DhbFIaQ" name="construcao_do_software" guid="_WzXcgNGcEeiwV61DhbFIaQ" presentationName="Construção do Software">
           <methodElementProperty xmi:id="_WzXcgdGcEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
