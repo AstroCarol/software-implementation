@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-mfdWz8wkz935fXrlj6GUrQ" name="compreender_as_especificacoes_de_requisitos,_v0fIkNMFEeiP16AWhs48wQ" guid="-mfdWz8wkz935fXrlj6GUrQ" changeDate="2018-10-18T20:31:07.166-0300">
+  <mainDescription>&lt;p>&#xD;
+    - Agrupar os requisitos em: Requisitos Funcionais e&amp;nbsp;Requisitos&amp;nbsp;Não Funcionais;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Verificar se todos os requisitos são compreendidos;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Se necessário, atualizar as Especificações de Requisitos;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Armazenar o documento atualizado no Repositório&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

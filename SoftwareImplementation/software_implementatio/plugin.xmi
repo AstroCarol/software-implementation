@@ -4,6 +4,8 @@
     <resourceDescriptors xmi:id="__13eoNGeEeiwV61DhbFIaQ" id="-f5IizWDVJH_fBhSDKkzNJA" uri="tasks/revisar_plano_de_projeto.xmi"/>
     <resourceDescriptors xmi:id="_5KhEINGiEeiwV61DhbFIaQ" id="-8uqOyN0MDlXfSVTlkhHHEg" uri="tasks/definir_ambiente.xmi"/>
     <resourceDescriptors xmi:id="_EXXrsNLjEeiw1JVvylulHw" id="-yLUk5K719jXTnOVnt7RJiA" uri="tasks/documentar_requisitos.xmi"/>
+    <resourceDescriptors xmi:id="_Y2EIYNMuEeiADs-lvxbEQA" id="-mfdWz8wkz935fXrlj6GUrQ" uri="tasks/compreender_as_especificacoes_de_requisitos.xmi"/>
+    <resourceDescriptors xmi:id="_Xoy8oNMxEeiADs-lvxbEQA" id="-Lj6uKsa2yYEneEdD3duN0Q" uri="tasks/codificacao_dos_componentes_do_software.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_ecdRoNGYEeiwV61DhbFIaQ" name="software_implementatio" guid="_ecdRoNGYEeiwV61DhbFIaQ" presentationName="Software Implementatio" changeDate="2018-10-16T20:10:53.028-0300">
     <methodElementProperty xmi:id="_ec7LsNGYEeiwV61DhbFIaQ" name="plugin_synFree" value="true"/>
@@ -73,13 +75,42 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pZ6uUNMEEeiP16AWhs48wQ" name="definir_tarefas" guid="_pZ6uUNMEEeiP16AWhs48wQ" presentationName="definir tarefas" briefDescription="Definir tarefas para os membros da equipe, de acordo com sua função, tomando como base o Plano de Projeto atual." performedBy="_AZp2QNGhEeiwV61DhbFIaQ _KSXAwNGhEeiwV61DhbFIaQ" mandatoryInput="_nQoG4NGhEeiwV61DhbFIaQ">
             <methodElementProperty xmi:id="_AvpCINMGEeiP16AWhs48wQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_v0fIkNMFEeiP16AWhs48wQ" name="compreender_as_especificacoes_de_requisitos" guid="_v0fIkNMFEeiP16AWhs48wQ" presentationName="Compreender as Especificações de Requisitos" briefDescription="Examinar cada requisito e certificar-se de que eles sejam compreendidos e agrupados:" performedBy="_AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_FkEvYNLjEeiw1JVvylulHw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_v0fIkNMFEeiP16AWhs48wQ" name="compreender_as_especificacoes_de_requisitos" guid="_v0fIkNMFEeiP16AWhs48wQ" presentationName="Compreender as Especificações de Requisitos" briefDescription="Examinar cada requisito e certificar-se de que eles sejam compreendidos e agrupados" performedBy="_AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_FkEvYNLjEeiw1JVvylulHw">
             <methodElementProperty xmi:id="_TX6A8NMKEeiP16AWhs48wQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-mfdWz8wkz935fXrlj6GUrQ" href="uma://-mfdWz8wkz935fXrlj6GUrQ#-mfdWz8wkz935fXrlj6GUrQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aaiL0NMuEeiADs-lvxbEQA" name="documentar_identificacao_dos_componentes_de_software" guid="_aaiL0NMuEeiADs-lvxbEQA" presentationName="Documentar Identificação dos Componentes de Software" briefDescription="Documentar ou atualizar a identificação dos componentes de software.&#xD;&#xA;Analisar a Especificação de Requisitos para gerar os componentes, sua disposição em subsistemas e componentes de software definindo as interfaces externas e internas. Fornecer detalher de componenetes de software e suas interfaces para permitir a construção do sistema." performedBy="_AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_FkEvYNLjEeiw1JVvylulHw" output="_AqNy8NMvEeiADs-lvxbEQA">
+            <methodElementProperty xmi:id="_i8atUNMuEeiADs-lvxbEQA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AqNy8NMvEeiADs-lvxbEQA" name="identificacao_dos_componentes_de_software" guid="_AqNy8NMvEeiADs-lvxbEQA" presentationName="Identificação dos Componentes de Software" briefDescription="Informações textuais e gráficas sobre a estrutura do software. Essa estrutura pode incluir as seguintes partes: &#xD;&#xA;- Descreve a estrutura geral do Software&#xD;&#xA;- Identifica os componentes necessários&#xD;&#xA;- Identifica o relacionamento entre os componentes">
+            <methodElementProperty xmi:id="_F6uDQNMvEeiADs-lvxbEQA" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_WzXcgNGcEeiwV61DhbFIaQ" name="construcao_do_software" guid="_WzXcgNGcEeiwV61DhbFIaQ" presentationName="Construção do Software">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_WzXcgNGcEeiwV61DhbFIaQ" name="construcao_do_software" guid="_WzXcgNGcEeiwV61DhbFIaQ" presentationName="Construção do Software" briefDescription="A atividade de Construção de Software é responsável pela codificação do software e os dados dos Componentes de Software identificados na atividade anterior. A atividade fornece:&#xD;&#xA;- Revisão do Plano de Projeto&#xD;&#xA;- Determinar atribuição de tarefas&#xD;&#xA;- Escrita e aplicação de casos de Teste e procedimentos de teste para os testes de unidade e integração">
           <methodElementProperty xmi:id="_WzXcgdGcEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_aUXeENGcEeiwV61DhbFIaQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_N48ooNMwEeiADs-lvxbEQA" name="definir_tarefas" guid="_N48ooNMwEeiADs-lvxbEQA" presentationName="definir tarefas" briefDescription="Definir tarefas para os membros da equipe, de acordo com sua função, tomando como base o Plano de Projeto atual." performedBy="_AZp2QNGhEeiwV61DhbFIaQ _KSXAwNGhEeiwV61DhbFIaQ" mandatoryInput="_nQoG4NGhEeiwV61DhbFIaQ">
+            <methodElementProperty xmi:id="_Y9D2UNMwEeiADs-lvxbEQA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_akOBYNMwEeiADs-lvxbEQA" name="compreender_os_componentes_de_software" guid="_akOBYNMwEeiADs-lvxbEQA" presentationName="Compreender os Componentes de Software" briefDescription="Compreender os Componentes de Software" performedBy="_AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_AqNy8NMvEeiADs-lvxbEQA">
+            <methodElementProperty xmi:id="_CvhnsNMxEeiADs-lvxbEQA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_DkF4MNMxEeiADs-lvxbEQA" name="codificacao_dos_componentes_do_software" guid="_DkF4MNMxEeiADs-lvxbEQA" presentationName="Codificação dos Componentes do Software" briefDescription="Codificação/Construção ou Atualização dos Componentes do Softwaare" performedBy="_AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_AqNy8NMvEeiADs-lvxbEQA" output="_b_aXkNMxEeiADs-lvxbEQA">
+            <methodElementProperty xmi:id="_SexHwNMxEeiADs-lvxbEQA" name="me_edited" value="true"/>
+            <presentation xmi:id="-Lj6uKsa2yYEneEdD3duN0Q" href="uma://-Lj6uKsa2yYEneEdD3duN0Q#-Lj6uKsa2yYEneEdD3duN0Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_b_aXkNMxEeiADs-lvxbEQA" name="componentes_do_software" guid="_b_aXkNMxEeiADs-lvxbEQA" presentationName="Componentes do Software" briefDescription="Refere-se a um conjunto de código.">
+            <methodElementProperty xmi:id="_v8oT8NMxEeiADs-lvxbEQA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_4yF4wNMxEeiADs-lvxbEQA" name="documentar_casos_de_teste" guid="_4yF4wNMxEeiADs-lvxbEQA" presentationName="Documentar Casos de Teste" briefDescription="Documentar ou atualizar os Casos de Testes e Procedimentos de Testes para testeed de unidade e integração com base na especificação de requisitos e na identificação de componentes do software. O cliente pode fornecer dados de testes caso se apresente necessário." performedBy="_AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_FkEvYNLjEeiw1JVvylulHw _AqNy8NMvEeiADs-lvxbEQA" output="_fTh-QNMyEeiADs-lvxbEQA">
+            <methodElementProperty xmi:id="_WqcokNMyEeiADs-lvxbEQA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_fTh-QNMyEeiADs-lvxbEQA" name="casos_de_teste_e_procedimento_de_testes" guid="_fTh-QNMyEeiADs-lvxbEQA" presentationName="Casos de Teste e Procedimento de Testes" briefDescription="Enumera o necessário para ter o teste do código. &#xD;&#xA;">
+            <methodElementProperty xmi:id="_lGZ70NMyEeiADs-lvxbEQA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JL7YgNMzEeiADs-lvxbEQA" name="teste_de_componentes" guid="_JL7YgNMzEeiADs-lvxbEQA" presentationName="Teste de Componentes" briefDescription="Teste os componentes do software, corrija os defeitos encontrados até que os testes de unidade estejam bem sucedidos " performedBy="_AZp2QNGhEeiwV61DhbFIaQ" mandatoryInput="_fTh-QNMyEeiADs-lvxbEQA">
+            <methodElementProperty xmi:id="_ds9zoNMzEeiADs-lvxbEQA" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bQlOsNGcEeiwV61DhbFIaQ" name="integracao_de_software_e_testes" guid="_bQlOsNGcEeiwV61DhbFIaQ" presentationName="Integração de Software e Testes">
           <methodElementProperty xmi:id="_bQlOsdGcEeiwV61DhbFIaQ" name="pkg_loadCheck" value="true"/>
