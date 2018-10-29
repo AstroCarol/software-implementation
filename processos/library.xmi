@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_8rKdQdqeEeiE2vpKaXQomw" guid="_8rKdQdqeEeiE2vpKaXQomw">
+    <subManagers xmi:id="_F4B1cNqfEeiE2vpKaXQomw" href="uma://_F3wvsNqfEeiE2vpKaXQomw#_F4B1cNqfEeiE2vpKaXQomw"/>
+    <resourceDescriptors xmi:id="_8rKdQtqeEeiE2vpKaXQomw" id="_8rKdQNqeEeiE2vpKaXQomw" uri=""/>
+    <resourceDescriptors xmi:id="_F4B1cdqfEeiE2vpKaXQomw" id="_F3wvsNqfEeiE2vpKaXQomw" uri="Soft-Implementation-And-Project-Management/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_8rKdQNqeEeiE2vpKaXQomw" name="processos" guid="_8rKdQNqeEeiE2vpKaXQomw">
+    <methodElementProperty xmi:id="_8uXiQNqeEeiE2vpKaXQomw" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_F3wvsNqfEeiE2vpKaXQomw" href="uma://_F3wvsNqfEeiE2vpKaXQomw#_F3wvsNqfEeiE2vpKaXQomw"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

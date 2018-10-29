@@ -1,2 +1,52 @@
-Info: CustomCategory:soft_imple: 12 mini seconds publishing element
-Info: : Publishing time: 0 minutes 1 seconds
+Info: CustomCategory:soft_imple: 22 mini seconds publishing element
+Info: DeliveryProcess:Software-Implementation: 511 mini seconds publishing element
+Info: DeliveryProcess:Software-Implementation: 782 mini seconds publishing process specific layout data
+Info: Activity:Iniciação da Implementação de Software: 276 mini seconds publishing element
+Info: Activity:Análise de Requisitos de Software: 453 mini seconds publishing element
+Info: Activity:Identificação dos Componentes de Software: 269 mini seconds publishing element
+Info: Activity:Construção do Software: 331 mini seconds publishing element
+Info: Activity:Integração e Testes do Software: 293 mini seconds publishing element
+Info: Activity:Entrega do Produto: 233 mini seconds publishing element
+Info: TaskDescriptor:revisao_do_plano_de_projeto: 14 mini seconds publishing element
+Info: TaskDescriptor:definir_o_ambiente_de_implementacao: 12 mini seconds publishing element
+Info: TaskDescriptor:coletar_informacoes_sobre_o_dominio_do_aplicativo: 12 mini seconds publishing element
+Info: TaskDescriptor:identificar_escopo_do_projeto: 70 mini seconds publishing element
+Info: TaskDescriptor:identificar_e_capturar_os_requisitos: 14 mini seconds publishing element
+Info: TaskDescriptor:estruturar_e_priorizar_requisitos: 80 mini seconds publishing element
+Info: TaskDescriptor:entender_a_especificacao_de_requisitos: 21 mini seconds publishing element
+Info: TaskDescriptor:documentar_ou_atualizar_os_componentes_do_software: 21 mini seconds publishing element
+Info: TaskDescriptor:projetar_os_componentes: 81 mini seconds publishing element
+Info: TaskDescriptor:codificar_os_componentes: 25 mini seconds publishing element
+Info: TaskDescriptor:verificar_os_componenetes: 105 mini seconds publishing element
+Info: TaskDescriptor:preparar_o_ambiente_de_teste_de_software: 33 mini seconds publishing element
+Info: TaskDescriptor:executar_testes_de_iterao: 122 mini seconds publishing element
+Info: TaskDescriptor:executar_testes_de_regressao: 18 mini seconds publishing element
+Info: TaskDescriptor:fechar_o_procedimento_de_teste: 17 mini seconds publishing element
+Info: TaskDescriptor:documentar_ou_atualizar_resultados_de_testes: 18 mini seconds publishing element
+Info: TaskDescriptor:entender_a_configuracao_do_software: 15 mini seconds publishing element
+Info: TaskDescriptor:executar_entrega_do_produto: 14 mini seconds publishing element
+Info: RoleDescriptor:cliente: 20 mini seconds publishing element
+Info: RoleDescriptor:equipe: 14 mini seconds publishing element
+Info: RoleDescriptor:gerente: 12 mini seconds publishing element
+Info: WorkProductDescriptor:casos_de_teste: 22 mini seconds publishing element
+Info: WorkProductDescriptor:componente_de_software: 12 mini seconds publishing element
+Info: WorkProductDescriptor:configuracao_de_software: 13 mini seconds publishing element
+Info: WorkProductDescriptor:descricao_do_projeto: 32 mini seconds publishing element
+Info: WorkProductDescriptor:documento_de_requisitos: 17 mini seconds publishing element
+Info: WorkProductDescriptor:plano_de_projeto: 23 mini seconds publishing element
+Info: WorkProductDescriptor:relatrio_de_testes: 21 mini seconds publishing element
+Info: WorkProductDescriptor:software: 21 mini seconds publishing element
+Info: RoleDescriptor:equipe: 55 mini seconds publishing element
+Info: WorkProductDescriptor:plano_de_projeto: 11 mini seconds publishing element
+Info: RoleDescriptor:equipe: 10 mini seconds publishing element
+Info: WorkProductDescriptor:documento_de_requisitos: 9 mini seconds publishing element
+Info: RoleDescriptor:equipe: 11 mini seconds publishing element
+Info: WorkProductDescriptor:componente_de_software: 14 mini seconds publishing element
+Info: WorkProductDescriptor:documento_de_requisitos: 10 mini seconds publishing element
+Info: RoleDescriptor:equipe: 13 mini seconds publishing element
+Info: WorkProductDescriptor:casos_de_teste: 80 mini seconds publishing element
+Info: WorkProductDescriptor:componente_de_software: 10 mini seconds publishing element
+Info: RoleDescriptor:equipe: 10 mini seconds publishing element
+Info: RoleDescriptor:gerente: 13 mini seconds publishing element
+Info: WorkProductDescriptor:plano_de_projeto: 41 mini seconds publishing element
+Info: : Publishing time: 0 minutes 6 seconds

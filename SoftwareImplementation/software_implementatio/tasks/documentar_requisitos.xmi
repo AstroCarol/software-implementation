@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-yLUk5K719jXTnOVnt7RJiA" name=",_-FLKUNLhEeiw1JVvylulHw" guid="-yLUk5K719jXTnOVnt7RJiA" changeDate="2018-10-18T11:33:43.777-0300">
-  <mainDescription>- Identificar e consultar as fontes de informação(cliente, usuários, sistemas anteriores, documentos, etc.) para obter&#xD;
-novos requisitos. &lt;br />&#xD;
-- Reunir e analisar os requisitos identificados para determinar o escopo e a viabilidade do projeto. &lt;br />&#xD;
-- Verificar a exatidão e capacidade de teste da Especificação de Requisitos e sua consistência com a Descrição do Produto.</mainDescription>
-</org.eclipse.epf.uma:TaskDescription>
